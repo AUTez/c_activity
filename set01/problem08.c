@@ -42,3 +42,4 @@ void output(int n, int a[n],int sum)
 {
     printf("sum of _n_ different numbers entered by the user is: %d", sum);
 }
+//done
