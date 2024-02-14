@@ -30,3 +30,4 @@ void output(int n, int sum)
 {
     printf("the sum of natural number is: %d", sum);
 }
+//done
