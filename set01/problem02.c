@@ -9,6 +9,6 @@ int main()
     scanf("%d", &b);
     sum = a + b;
     printf("the ans is %d", sum);
-    return 0;
+    return 0;// return 0 
 
 }
