@@ -62,3 +62,4 @@ void output(int n, Complex c[n], Complex result)
 {
     
 }
+//done
