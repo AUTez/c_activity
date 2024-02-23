@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/downloads/vs/Sem2/PSU/c_activity/set02",
-      "program": "d:/downloads/vs/Sem2/PSU/c_activity/set02/build/Debug/outDebug",
+      "cwd": "d:/downloads/vs/Sem2/PSU/c_activity/set01",
+      "program": "d:/downloads/vs/Sem2/PSU/c_activity/set01/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
