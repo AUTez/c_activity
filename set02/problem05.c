@@ -1,17 +1,5 @@
 #include<stdio.h>
 
-int input();
-int find_gcd(int a, int b);
-void output(int a, int b, int gcd);
-
-int main(){
-    int a,b,gcd;
-    a = input();
-    b = input();
-    gcd = find_gcd(a,b);
-    output(a,b,gcd);
-}
-
 int input(){
     int x;
     printf("Enter any 2 integers: \n");
@@ -33,4 +21,11 @@ int find_gcd(int a, int b){
 
 void output(int a, int b, int hcf){
     printf("The HCF of %d and %d is: %d",a,b,hcf);
+}
+int main(){
+    int a,b,gcd;
+    a = input();
+    b = input();
+    gcd = find_gcd(a,b);
+    output(a,b,gcd);
 }
