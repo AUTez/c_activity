@@ -37,6 +37,8 @@ int sum_composite_number(int n,int a[n])
     }
     
 }
+//done
+
 
 void output(int sum)
 {
