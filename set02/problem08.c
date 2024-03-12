@@ -25,7 +25,7 @@ void input_n_triangles(int n, Triangle t[n])
     int n;
     for(int i = 0; i < n; ++i){
         printf("enter number of triangles");
-        t[i] = input_triangle()
+        t[i] = input_triangle();
     }
 
 }
@@ -37,9 +37,36 @@ void find_area(Triangle *t)
 
 void find_n_areas(int n, Triangle t[n])
 {
-    
-
+    for (int i = 0; i < n; ++i)
+    {
+        find_area(&t[i]);
+    }
 
 }
-Triangle find_smallest_triangle(int n, Triangle t[n]);
-void output(int n, Triangle t[n], Triangle smallest);
+Triangle find_smallest_triangle(int n, Triangle t[n])
+{
+    Triangle smallest = t[0];
+    for (int i = 1; i < t; ++i)
+    {
+        smallest = t[i];
+    }
+
+}
+void output(int n, Triangle t[n], Triangle smallest)
+{
+    printf("the smallest triangle has:\n");
+    printf("base: %2.f", smallest.base);
+    printf("height: %2.f", smallest.altitude);
+    printf("area: %2.f", smallest.area);
+}
+
+int main()
+{
+    int n = input_n();
+    Triangle tri[n];
+    input_n(n, tri);
+    find_area(n, tri);
+    Triangle small = find_smallest_triangle(n, tri);
+    output(n, tri);
+    return 0;
+}
